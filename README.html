@@ -267,7 +267,7 @@
 
 <h1>PG CPU applet for MATE</h1>
 
-<h2>CPU applet to show all processor threads in a bar format</h2>
+<h2>CPU applet to show all processor thread's load in a bar format</h2>
 
 <p>Install:</p>
 
@@ -279,8 +279,15 @@
 
 <ul>
 <li>Goto panel menu, click on  "Add to Panel"</li>
-<li>Click on: "PG CPU Load Display"</li>
+<li><p>Click on: "PG CPU Load Display"</p>
+
+<p>The python code can emit debug / status statements into syslog. To view them,
+open a new terminal and run:</p>
+
+<p>sudo tail -f /var/log/syslog</p></li>
 </ul>
+
+<p>See the source for examples of how to emit syslog statements from the panel applet;</p>
 
 <p>Notables:</p>
 
