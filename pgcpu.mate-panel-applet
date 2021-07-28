@@ -1,0 +1,14 @@
+[Applet Factory]
+Id=pgcpuFactory
+InProcess=false
+Location=/usr/bin/env python3 /usr/lib/mate-applets/pgcpu.py
+Name=PG CPU Applet Factory
+Description=A MATE Python Applet CPU Load Display
+
+[pgcpu]
+Name=PG CPU Load Display
+Description=MATE CPU Load Display Applet -- Per Thread Display
+Icon=mate
+MateComponentId=OAFIID:MATE_pgcpu
+
+
