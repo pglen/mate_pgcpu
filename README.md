@@ -22,18 +22,20 @@ See the source for examples of how to emit syslog statements from the panel appl
 
 Notables:
 
-  This python project is a good platform for MATE applet development, as the
-  project contains all the elements for install / code / run / un install cycle
+  This  project is a good template / skeleton platform for MATE applet development, as the
+  project contains all the elements for the -- install / code / run / uninstall -- cycle
 
-  This project shows how to populate multiple instances of Applets / Widgets
+  It also shows how to populate multiple instances of Applets / Widgets
   from the GLib timer.
 
   Python is an ideal platform for this kind of task ...
 
-sudo remove.sh should erase all traces of this project from the system
+sudo remove.sh should erase all traces of this project from the system.
 
 ### Small picture of the CPU Load Indicator:
 
 ![Image](pgcpu.jpg)
 
-PG
+Peter Glen
+
+Contributions welcome
