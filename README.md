@@ -10,10 +10,11 @@ This installer will also kill the old instance .. useful for development
 
   Usage:
 
- 1.) Goto panel menu, click on  "Add to Panel"
- 2.) Click on: "PG CPU Load Display"
+ * Goto panel menu, click on  "Add to Panel"
+ * Click on: "PG CPU Load Display"
 
- Notables:
+
+Notables:
 
   This python project is a good platform for MATE applet development, as the
   project contains all the elements for install / code / run / un install cycle
@@ -23,6 +24,10 @@ This installer will also kill the old instance .. useful for development
 
   Python is an ideal platform for this kind of task ...
 
-sudo remove.sh should erase all traces of this project fro the system
+sudo remove.sh should erase all traces of this project from the system
+
+### Small picture of the CPU Load Indicator:
+
+![Image](pgcpu.jpg)
 
 PG
